@@ -6,6 +6,7 @@ body{
     font-optical-sizing: auto;
     font-style: normal;
     margin: 0;
+    color: #fff;
 }
 .container{
     max-width: 1400px;
@@ -18,11 +19,55 @@ header .box-img{
     background-size: cover;
     width: 260px;
     height: 65px;
-    position: relative;
-    left: -150px;
-    top: -5px;
     cursor: pointer;
 }
 header{
     background-color: #e10098;  
+}
+header .box-up, .box-down{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+header .box-up .box-svg{
+   display: flex;
+   flex-direction: row;
+}
+header .box-up .box-svg:nth-child(2){
+    font-weight: bold;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+header img{
+    width: 30px;
+    height: 40px;   
+}
+header .box-buttons{
+   display: flex;
+   flex-direction: row;
+   margin-left: 200px;
+}
+header .box-img1{
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 18px;
+}
+header .box-img1:first-child{
+    border-right: 2px solid 
+    #fff;
+}
+header .box-img1:nth-child(2){
+    border-right: 2px solid #fff;
+}
+header .box-img1:nth-child(3){
+    border-right: 2px solid #fff;
+    padding-left: 15px;
 }
