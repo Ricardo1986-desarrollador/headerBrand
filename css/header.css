@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Exo", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header .box-img{
+    background-image: url(assets/logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 260px;
+    height: 65px;
+    position: relative;
+    left: -150px;
+    top: -5px;
+    cursor: pointer;
+}
+header{
+    background-color: #e10098;  
+}
