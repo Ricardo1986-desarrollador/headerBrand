@@ -29,12 +29,33 @@ header .box-up, .box-down{
     flex-direction: row;
     padding-top: 15px;
 }
-header .box-up .box-svg{
+header .box-up, .box-svg, .box-svg-1{
    display: flex;
    flex-direction: row;
 }
-header .box-up .box-svg:nth-child(2){
+header .bolder{
     font-weight: bold;
+    width: 100px;
+}
+header .bolder2{
+    width: 100px;
+    height: 20px;
+    border-right: 2px solid #fff;
+}
+header .box-svg-1 img{
+    margin-left: 15px;
+}
+header .bolder3{
+    font-weight: bold;
+    margin: 0px 15px 0px 15px;
+    width: 120px;
+}
+header .bolder4{
+    width: 300px;
+    margin-left: -35px;
+}
+header .box-up .img1{
+    margin-top: -15px;
 }
 header a{
     color: #fff;
@@ -49,8 +70,9 @@ header img{
 header .box-buttons{
    display: flex;
    flex-direction: row;
-   margin-left: 200px;
+   margin-left: 150px;
 }
+
 header .box-img1{
     width: 180px;
     display: flex;
@@ -70,4 +92,9 @@ header .box-img1:nth-child(2){
 header .box-img1:nth-child(3){
     border-right: 2px solid #fff;
     padding-left: 15px;
+}
+
+
+header .box-svg:nth-child(2){
+    font-weight: bold;
 }
