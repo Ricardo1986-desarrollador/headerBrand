@@ -15,11 +15,22 @@ body{
 header .box-up{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     margin-top: auto;margin-bottom: auto;
+    width: 100%;
 }
 header .box-left, .box-center, .box-right{
     border: 3px solid red;
     width: 33.33%;
     height: 3em;
+}
+header.box-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: blue;
 }
 header .box-inside{
     display: flex;
@@ -27,7 +38,7 @@ header .box-inside{
     align-items: center;
     justify-content: center;
     text-align: center;
-
+    margin-top: auto;margin-bottom: auto;
 }
 header .box-1, .box-2, .box-3{
     border: 3px solid black;
