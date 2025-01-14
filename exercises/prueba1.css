@@ -45,3 +45,14 @@ header .box-1, .box-2, .box-3{
     width: 33.33%;
     height: 2em;
 }
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+.box-in{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    place-self: center;
+}
