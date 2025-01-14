@@ -3,6 +3,7 @@
 }
 body{
     background-color: red;
+    padding: 25px;
 }
 .box1, .box2, .box3{
     width: 33.33%;
@@ -12,4 +13,18 @@ body{
 .box-head{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border: 1px solid blue;
+    height: 180px;
+}
+.box4, .box5, .box6{
+    width: 33.33%;
+    border: 1px solid #fff;
+    height: 35px;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
