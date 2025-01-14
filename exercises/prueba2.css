@@ -4,3 +4,12 @@
 body{
     background-color: red;
 }
+.box1, .box2, .box3{
+    width: 33.33%;
+    border: 1px solid #fff;
+    height: 75px;
+}
+.box-head{
+    display: flex;
+    flex-direction: row;
+}
