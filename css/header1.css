@@ -43,7 +43,7 @@ header span{
 header .box-2{
     padding: 0em 2em;  
 }
-header .box-3{
+header .box-3, .box-8, .box-10 {
    border-right:2px solid #fff;
    padding-right: 15px;
    height: 25px;
@@ -53,3 +53,40 @@ header .box-3{
    justify-content: center;
    text-align: center;
 }
+header .box-4, .box-5, .box-6, .box-9, .box-11, .box-12, .box-15, .box-17{
+    margin-left: 25px;
+}
+header .box-7{
+    margin-left: 16em;
+}
+header .box-9{
+    margin-left: 25px;
+}
+header .box-13{
+}
+header .box-14{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header .box-16{
+    margin-left: 65em;
+}
+header .box-18, .box-19{
+    margin-left: 3em;
+}
+header .box-20{
+    position: relative;
+    top: 9px;
+    right: 15px;
+    background-color: #fff;
+    color: #e10098;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
