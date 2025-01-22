@@ -27,3 +27,10 @@ li{font-size: 1.2em; list-style-type: none;}
     display: flex;
     flex-direction: column;
 }   
+.box-inside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
