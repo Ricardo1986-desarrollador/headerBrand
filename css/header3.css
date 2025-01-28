@@ -5,4 +5,45 @@ body{
     font-family: "Exo", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    color: #fff;
+}
+img{
+    margin-left: 1em;
+}
+span{
+    font-weight: bold;
+    font-size: .8em;
+    margin-left: 2em;
+}
+p{
+    font-weight: 100;
+    font-size: .8em;
+    margin-left: 2em;
+}
+header .box-up, .box-down, .box-right,.box-right1, .box-left, .box-one, .box-two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header .box-right{
+    margin-left: 45em;
+}
+header .box-up{
+    background-color: #e10098;
+}
+header .box-down{
+    background-color: #d10098;
+}
+header .box-right1{
+    margin-left: 77em;
+}
+header .text{
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    right: 3em;
+    top: 1em;
+    color: #e10098;
+    font-weight: bold;
+    padding: .1em;
 }
