@@ -25,8 +25,20 @@ header .box-up, .box-down, .box-right,.box-right1, .box-left, .box-one, .box-two
     flex-direction: row;
     align-items: center;
 }
+header .box-one p{
+    border-right: 1px solid #fff;
+    padding-right: 1em;
+}
+header .box-right img{
+    border-right: 1px solid #fff;
+    padding-right: 1em;
+}
+header .unique{
+    border-right: 1px solid #fff;
+    padding-right: 1em;
+}
 header .box-right{
-    margin-left: 45em;
+    margin-left: 42em;
 }
 header .box-up{
     background-color: #e10098;
