@@ -59,3 +59,7 @@ header .text{
     font-weight: bold;
     padding: .1em;
 }
+header .one{
+    width: 10em;
+    border-radius: 10px;
+}
